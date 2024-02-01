@@ -13,3 +13,12 @@ body {
   width: 65%;
   height: 65%;
 }
+
+.card-container {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+}
