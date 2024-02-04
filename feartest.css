@@ -7,18 +7,20 @@ body {
   text-align: center;
   background-color: black;
   color: white;
+  margin: 0%;
 }
 
-.image {
-  width: 65%;
-  height: 65%;
+
+#circle{
+  width:500px;
+  background-color: red;
+  height:500px;
+  border-radius: 100%;
+  font-size: 500%;
 }
 
-.card-container {
+.imageclass{
   width: 100%;
-  min-height: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 10px;
+  height: 100%;
+  position: absolute;
 }
