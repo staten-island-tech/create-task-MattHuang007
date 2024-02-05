@@ -30,7 +30,7 @@ button.addEventListener("click", (event) => {
     setTimeout(() => {
       image.remove();
     }, 2000);
-    scarecounter = getRandomInt(10, 1);
+    scarecounter = getRandomInt(50, 1);
     console.log(randomIdx, sources[randomIdx]);
   }
 });
