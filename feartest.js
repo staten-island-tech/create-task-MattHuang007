@@ -14,7 +14,6 @@ const sources = [
 const button = document.getElementById("circle");
 let scarecounter = getRandomInt(50, 1);
 button.addEventListener("click", (event) => {
-  //handle click'
   console.log(event.target.innerText);
   const counter = parseInt(event.target.innerText) + 1;
   event.target.innerText = counter;
@@ -34,8 +33,6 @@ button.addEventListener("click", (event) => {
     console.log(randomIdx, sources[randomIdx]);
   }
 });
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-// ex: range = 20, offset = 5, generates 5 to 25
 function getRandomInt(range, offset) {
   return Math.floor(Math.random() * range) + offset;
 }
